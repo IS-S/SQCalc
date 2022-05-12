@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQCalc", "SQCalc\SQCalc.csproj", "{4CC9C8C3-BC53-4CD0-9BED-1483A40D88D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{A2E7AE64-CA8E-462B-8576-9818B578C560}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{E7A6DE63-EE9A-4909-B687-FF311B94BDA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CC9C8C3-BC53-4CD0-9BED-1483A40D88D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CC9C8C3-BC53-4CD0-9BED-1483A40D88D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CC9C8C3-BC53-4CD0-9BED-1483A40D88D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CC9C8C3-BC53-4CD0-9BED-1483A40D88D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2E7AE64-CA8E-462B-8576-9818B578C560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E7AE64-CA8E-462B-8576-9818B578C560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E7AE64-CA8E-462B-8576-9818B578C560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E7AE64-CA8E-462B-8576-9818B578C560}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7A6DE63-EE9A-4909-B687-FF311B94BDA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A6DE63-EE9A-4909-B687-FF311B94BDA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A6DE63-EE9A-4909-B687-FF311B94BDA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A6DE63-EE9A-4909-B687-FF311B94BDA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36D601AE-2A02-4978-A15B-E8516AD64C9B}
+	EndGlobalSection
+EndGlobal
