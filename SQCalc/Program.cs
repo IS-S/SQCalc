@@ -14,6 +14,8 @@ namespace SQCalc
             bool cont = true, enter;
             List<int> parameters = new List<int>();
 
+            Console.WriteLine((5 + 5 + 1) / 2);
+
             while(cont)
             {
 
@@ -56,11 +58,11 @@ namespace SQCalc
                     phrase = "Nothing entered.";
                     break;
                 case 1:
-                    result = Calculator.CalcSq(parameters[0]);
+                    result = new Circle(parameters[0]).CalcSq();
                     phrase = "Square of " + result.Item2 + " : " + result.Item1;
                     break;
                 case 3:
-                    result = Calculator.CalcSq(parameters);
+                    result = new Triangle(parameters).CalcSq();
 
                     if (result.Item2 == "NE")
                     {
